@@ -7,7 +7,7 @@ This Dockerfile is based [on the official RabbitMQ image](https://hub.docker.com
 https://hub.docker.com/r/alvaroalves182/docker-rabbitmq/
 
 ## Using
-`sudo docker run -d -e RABBITMQ_NODENAME=my-rabbit --name rabbitmq -p 8080:15672 -p 61613:61613 alvaroalves182/docker-rabbitmq-stomp`
+`sudo docker run -d -e RABBITMQ_NODENAME=my-rabbit --name rabbitmq -p 8080:15672 -p 61613:61613 alvaroalves182/docker-rabbitmq`
 
 Exposed ports:
 
